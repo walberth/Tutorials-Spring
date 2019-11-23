@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49e1cea1-8f2b-4f1b-b113-466028c5558e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/loggingdoitright/configuration/RequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/loggingdoitright/configuration/RequestInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/loggingdoitright/service/implementation/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/loggingdoitright/service/implementation/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/loggingdoitright/configuration/RequestInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/loggingdoitright/configuration/RequestInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/loggingdoitright/service/implementation/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/loggingdoitright/service/implementation/PersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="@Aspect" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1QiWdJCTUfB2Gzr4DbDIpq6qBF9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Workspace/logger" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.project.xxxxx.model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LoggingApplication">
+    <configuration name="LoggingApplicationTests.EmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logging_do_it_right" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.loggingdoitright.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.loggingdoitright" />
+      <option name="MAIN_CLASS_NAME" value="com.project.loggingdoitright.LoggingApplicationTests" />
+      <option name="METHOD_NAME" value="EmailTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoggingApplicationTests.ServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logging_do_it_right" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.loggingdoitright.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.loggingdoitright" />
+      <option name="MAIN_CLASS_NAME" value="com.project.loggingdoitright.LoggingApplicationTests" />
+      <option name="METHOD_NAME" value="ServiceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoggingApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logging_do_it_right" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.loggingdoitright.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.loggingdoitright" />
+      <option name="MAIN_CLASS_NAME" value="com.project.loggingdoitright.LoggingApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoggingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="logging_do_it_right" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.loggingdoitright.LoggingApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.LoggingApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.LoggingApplicationTests.EmailTest" />
+      <item itemvalue="JUnit.LoggingApplicationTests.ServiceTest" />
+      <item itemvalue="Spring Boot.LoggingApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoggingApplicationTests.EmailTest" />
+        <item itemvalue="JUnit.LoggingApplicationTests.ServiceTest" />
+        <item itemvalue="JUnit.LoggingApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49e1cea1-8f2b-4f1b-b113-466028c5558e" name="Default Changelist" comment="" />
+      <created>1568253982654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568253982654</updated>
+      <workItem from="1568253988696" duration="3063000" />
+      <workItem from="1568308132741" duration="8683000" />
+      <workItem from="1568325250623" duration="17258000" />
+      <workItem from="1568391689713" duration="61751000" />
+      <workItem from="1568635092565" duration="17152000" />
+      <workItem from="1568772211495" duration="1607000" />
+      <workItem from="1568775787348" duration="3905000" />
+      <workItem from="1568832768802" duration="10112000" />
+      <workItem from="1569114686613" duration="4915000" />
+      <workItem from="1569738311639" duration="517000" />
+      <workItem from="1569738889121" duration="657000" />
+      <workItem from="1569783189923" duration="1355000" />
+      <workItem from="1570066379301" duration="6109000" />
+      <workItem from="1570332251228" duration="5000" />
+      <workItem from="1572193642036" duration="645000" />
+      <workItem from="1572194744572" duration="1484000" />
+      <workItem from="1574014054013" duration="22480000" />
+      <workItem from="1574474058843" duration="6785000" />
+      <workItem from="1574493827418" duration="4327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/loggingdoitright/transversal/TimeHelper.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/loggingdoitright/aspect/LoggingAspect.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/loggingdoitright/service/implementation/PersonService.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/loggingdoitright/configuration/RequestInterceptor.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/loggingdoitright/controller/ControllerExceptionHandler.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/loggingdoitright/controller/PersonController.java</url>
+          <line>20</line>
+          <properties class="com.project.loggingdoitright.controller.PersonController" method="getPersonById">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
