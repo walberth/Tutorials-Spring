@@ -1,0 +1,9 @@
+aws:
+  accessKey: AKIAQ5E7GWFNFKMFKGPM
+  secretKey: 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
+
+server:
+  port: 8890
+
+queue:
+  sqsTest: https://sqs.us-east-1.amazonaws.com/062610911578/SqsTest
