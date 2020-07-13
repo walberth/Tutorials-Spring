@@ -1,6 +1,6 @@
 aws:
-  accessKey: AKIAQ5E7GWFNFKMFKGPM
-  secretKey: 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
+  accessKey: AKIAQ5E7GWFNECKE5PS3
+  secretKey: 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
 
 server:
   port: 8890
