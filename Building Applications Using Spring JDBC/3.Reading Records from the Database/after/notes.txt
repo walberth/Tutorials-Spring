@@ -1,0 +1,70 @@
+------------------Ride Changes------------------
+
+private Integer id;
+
+------------------Repository Changes------------------
+
+List <Ride> rides = jdbcTemplate.query("select * from ride", new RowMapper<Ride>() {
+	@Override
+	public Ride mapRow(ResultSet rs, int rowNum) throws SQLException {
+		Ride ride = new Ride();
+		ride.setId(rs.getInt("id"));
+		ride.setName(rs.getString("name"));
+		ride.setDuration(rs.getInt("duration"));
+		return ride;
+	}
+});
+
+return rides;
+
+------------------Test Changes------------------
+
+ride = restTemplate.postForObject("http://localhost:8080/ride_tracker/ride", ride, Ride.class);
+
+------------------Controller Changes------------------
+
+method = RequestMethod.POST
+
+------------------Ride RowMapper------------------
+
+public class RideRowMapper implements RowMapper<Ride> {
+
+	@Override
+	public Ride mapRow(ResultSet rs, int rowNum) throws SQLException {
+		Ride ride = new Ride();
+		ride.setId(rs.getInt("id"));
+		ride.setName(rs.getString("name"));
+		ride.setDuration(rs.getInt("duration"));
+		return ride;
+	}
+}
+
+------------------Create Ride Changed------------------
+
+@Override
+public Ride createRide(final Ride ride) {		
+	KeyHolder keyHolder = new GeneratedKeyHolder();
+	jdbcTemplate.update(
+	    new PreparedStatementCreator() {
+	        public PreparedStatement createPreparedStatement(Connection connection) throws SQLException {
+	            PreparedStatement ps =
+	                connection.prepareStatement("insert into ride (name, duration) values (?,?)", new String[] {"id"});
+	            ps.setString(1, ride.getName());
+	            ps.setInt(2, ride.getDuration());
+	            return ps;
+	        }
+	    },
+	    keyHolder);
+	
+	Number id = keyHolder.getKey();
+	
+	return getRide(id.intValue());
+}
+
+------------------Get Ride Changed------------------
+
+public Ride getRide(Integer id) {
+	Ride ride = jdbcTemplate.queryForObject("select * from ride where id = ?", new RideRowMapper());
+	
+	return ride;
+}

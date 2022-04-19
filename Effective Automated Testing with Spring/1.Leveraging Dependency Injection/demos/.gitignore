@@ -1,0 +1,8 @@
+.project
+.settings
+/room-service/.settings/
+/room-service/.mvn/
+/room-service/.project
+/room-service/.springBeans
+/room-service/.classpath
+/room-service/target

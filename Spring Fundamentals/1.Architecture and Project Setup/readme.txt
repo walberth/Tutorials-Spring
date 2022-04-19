@@ -1,0 +1,1 @@
+These files assume that you have created a project inside Spring STS as we did in Module 2. You can just override your src and pom.xml with these files and update your project to use them. 

@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+org.eclipse.ajdt.aopxml=/m09-spring-aop-vs-aspectj-load-time-weaving/src/main/resources/META-INF/aop.xml

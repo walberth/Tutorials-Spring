@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<flow xmlns="http://www.springframework.org/schema/webflow"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/webflow
+      http://www.springframework.org/schema/webflow/spring-webflow-2.4.xsd">
+      
+      <action-state id="begin">
+      	<evaluate expression="requestParameters.role=='Administrator'?'yes':'no'" />
+      	<transition on="yes" to="showAccounts">
+      		<set name="flowScope.user" value="requestParameters.user" />
+      	</transition>
+      	<transition on="no" to="accountDetails">
+      	</transition>
+      </action-state>
+      
+      <view-state id="accountDetails" view="/WEB-INF/Views/findAccount.jsp">
+      </view-state>
+      
+      <view-state id="showAccounts" view="/WEB-INF/Views/listAccounts.jsp">
+      	<on-render>
+      		<evaluate expression="accountService.getAccounts()"
+      				result="requestScope.accounts" />
+      		<set name="requestScope.userName" value="flowScope.user" />
+      	</on-render>
+      </view-state>
+
+</flow>
