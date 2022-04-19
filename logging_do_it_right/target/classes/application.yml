@@ -1,9 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/xxxxx
-    username: root
-    password: sql2016.
-    driver-class-name: com.mysql.cj.jdbc.Driver
-
-server:
-  port: 8870

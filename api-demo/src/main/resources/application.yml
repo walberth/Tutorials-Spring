@@ -1,8 +1,0 @@
-server:
-  port: 8055
-
-#TODO: PARA PODER ACTUALIZAR EL PUBLICADO SOLO COMPILANDO
-spring:
-  devtools:
-    remote:
-      secret: wgutierrez

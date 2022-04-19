@@ -1,9 +1,0 @@
-aws:
-  accessKey: AKIAQ5E7GWFNECKE5PS3
-  secretKey: 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
-
-server:
-  port: 8890
-
-queue:
-  sqsTest: https://sqs.us-east-1.amazonaws.com/062610911578/SqsTest
